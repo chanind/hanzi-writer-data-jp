@@ -1,0 +1,3 @@
+[submodule "vendor/animCJK"]
+	path = vendor/animCJK
+	url = https://github.com/parsimonhi/animCJK.git
