@@ -17,7 +17,7 @@ Until this is supported directly in Hanzi Writer, you'll need to use a custom `c
 ```
 HanziWriter.create('target-div', '私', {
   width: 400,
-	height: 400,
+  height: 400,
   charDataLoader: (char, onLoad, onError) => {
     fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data-jp@0/${char}.json`)
       .then(res => res.json())
