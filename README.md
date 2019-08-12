@@ -5,6 +5,7 @@
 This is the character data used by [Hanzi Writer](https://github.com/chanind/hanzi-writer) for Japanese.
 **NOTE: This is currently experimental**
 
+This data is published in a separate repo from Hanzi Writer for the following reasons:
 - This data is licensed separately from the Hanzi Writer source code.
 - This allows users who wish to import character data in NPM to do so without forcing everyone to download the character data along with Hanzi Writer.
 - Publishing on NPM makes this data available on the [jsdelivr CDN](https://www.jsdelivr.com/package/npm/hanzi-writer-data-jp), so data can be loaded via, for instance, https://cdn.jsdelivr.net/npm/hanzi-writer-data-jp@latest/私.json. 
@@ -26,6 +27,10 @@ HanziWriter.create('target-div', '私', {
   }
 })
 ```
+
+## Current limitations compared with the Chinese data
+- This data does not support radicals yet
+- This data does not have capped strokes, so there are sharp edges where strokes intersect
 
 ## License
 
