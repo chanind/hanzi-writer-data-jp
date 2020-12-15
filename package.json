@@ -1,6 +1,6 @@
 {
   "name": "hanzi-writer-data-jp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "David Chanin <chanindav@gmail.com> (https://chanind.github.io/hanzi-writer)",
   "description": "The character data used by Hanzi Writer for Japanese. This data is derived from Make Me a Hanzi and animCJK.",
   "repository": "chanind/hanzi-writer-data",
